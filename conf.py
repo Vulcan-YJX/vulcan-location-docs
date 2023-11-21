@@ -15,7 +15,7 @@ release = 'v0.0.1'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'myst_nb',
+    'myst_parser',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
     'sphinx.ext.autodoc',
@@ -33,6 +33,7 @@ language = 'zh_CN'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+master_doc = 'index'
 
 html_static_path = ['_static']
 
